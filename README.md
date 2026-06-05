@@ -18,11 +18,11 @@
 
 <h2 align="center">
 <h2 align="center">
-# HỆ THỐNG CHỮA CHÁY TỰ ĐỘNG SỬ DỤNG ARDUINO UNO
+# Lập trình xe alphabot chữa cháy trong trang trại
 
 ## 1. Giới thiệu đề tài
 
-Đề tài **Hệ thống chữa cháy tự động sử dụng Arduino Uno** là một mô hình ứng dụng lập trình nhúng vào việc phát hiện và xử lý cháy tự động. Hệ thống sử dụng cảm biến lửa để phát hiện ngọn lửa, sau đó Arduino Uno sẽ điều khiển còi cảnh báo, relay 5V, máy bơm nước và servo SG90.
+Đề tài **Lập trình xe alphabot chữa cháy trong trang trại** là một mô hình ứng dụng lập trình nhúng vào việc phát hiện và xử lý cháy tự động. Hệ thống sử dụng cảm biến lửa để phát hiện ngọn lửa, sau đó Arduino Uno sẽ điều khiển còi cảnh báo, relay 5V, máy bơm nước và servo SG90.
 
 Khi cảm biến phát hiện có lửa, hệ thống sẽ tự động bật còi để cảnh báo, kích hoạt relay để máy bơm hoạt động và điều khiển servo quay qua lại nhằm mô phỏng cơ cấu phun nước chữa cháy. Khi không còn phát hiện lửa, hệ thống tự động tắt còi, ngắt relay, dừng máy bơm và đưa servo về vị trí ban đầu.
 
@@ -538,18 +538,7 @@ automatic-fire-fighting-arduino/
 └── README.md
 ```
 
----
 
-## 16. Tác giả
 
 Sinh viên thực hiện: **Nguyên Nguyên**
 
-Đề tài: **Hệ thống chữa cháy tự động sử dụng Arduino Uno**
-
----
-
-## 17. Kết luận
-
-Đề tài đã xây dựng thành công mô hình hệ thống chữa cháy tự động sử dụng Arduino Uno. Hệ thống có khả năng phát hiện lửa, phát cảnh báo bằng còi, điều khiển relay để bật máy bơm và sử dụng servo SG90 để mô phỏng hướng phun nước.
-
-Mặc dù còn một số hạn chế, mô hình đã thể hiện được nguyên lý cơ bản của một hệ thống chữa cháy tự động. Đây là nền tảng để tiếp tục phát triển các hệ thống an toàn thông minh hơn trong tương lai.
